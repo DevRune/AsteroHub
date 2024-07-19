@@ -1,0 +1,73 @@
+name: AsteroHub
+version: 1.0.0
+main: nl.infinityastro.asterohub.AsteroHub
+api-version: 1.20
+commands:
+  spawn:
+    description: Teleport to the hub
+    usage: /spawn
+  setspawn:
+    description: Set the hub spawn location
+    usage: /setspawn
+    permission: astero.hub.command.setspawn
+permissions:
+  astero.hub.bypass.*:
+    description: Allows bypassing all hub restrictions
+    default: false
+  astero.hub.command.*:
+    description: Allows executing hub commands
+    default: op
+  astero.hub.bypass.break:
+    description: Bypass block breaking restriction
+    default: op
+  astero.hub.bypass.place:
+    description: Bypass block placement restriction
+    default: op
+  astero.hub.bypass.interact:
+    description: Bypass block interaction restriction
+    default: op
+  astero.hub.bypass.falldamage:
+    description: Bypass fall damage restriction
+    default: false
+  astero.hub.bypass.voiddeath:
+    description: Bypass void death restriction
+    default: false
+  astero.hub.bypass.weather:
+    description: Bypass weather change restriction
+    default: false
+  astero.hub.bypass.itempickup:
+    description: Bypass item pickup restriction
+    default: op
+  astero.hub.bypass.itemdrop:
+    description: Bypass item drop restriction
+    default: false
+  astero.hub.bypass.pvp:
+    description: Bypass PvP restriction
+    default: false
+  astero.hub.bypass.hunger:
+    description: Bypass hunger loss restriction
+    default: false
+  astero.hub.bypass.mobspawning:
+    description: Bypass mob spawning restriction
+    default: false
+  astero.hub.bypass.firespread:
+    description: Bypass fire spread restriction
+    default: false
+  astero.hub.bypass.blockburning:
+    description: Bypass block burning restriction
+    default: false
+  astero.hub.bypass.deathmessages:
+    description: Bypass death messages restriction
+    default: false
+  astero.hub.bypass.leafdecay:
+    description: Bypass leaf decay restriction
+    default: false
+  astero.hub.bypass.swear:
+    description: Bypass anti-swear restriction
+    default: op
+  astero.hub.bypass.chatcooldown:
+    description: Bypass chat cooldown restriction
+    default: op
+  astero.hub.fly:
+    description: Allows flying in the hub
+    default: op

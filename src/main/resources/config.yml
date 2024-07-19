@@ -1,0 +1,26 @@
+server:
+  ip: play.serverip.eu
+
+inventory_size: 27  # Aantal rijen van de inventaris (standaard 27, wat 3 rijen zijn)
+
+servers:
+  survival:
+    name: "&aSurvival"
+    permission: "lobby.joinserver.survival"
+    server: "survival"
+    material: "GRASS_BLOCK"
+    lore:
+      - "Klik om survival te joinen"
+    slot: 14
+  creative:
+    name: "&bCreative"
+    permission: "lobby.joinserver.creative"
+    server: "creative"
+    material: "DIAMOND_BLOCK"
+    lore:
+      - "Klik om creative te joinen"
+    slot: 16
+
+server_selector_item:
+  name: "&6Server Selector"
+  material: "COMPASS"
